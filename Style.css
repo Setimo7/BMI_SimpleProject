@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto&display=swap');
+:root{
+    --primary-color: rgb(13, 106, 134);
+    --primary-color-darker: rgb(3, 46, 59);
+}
+*{
+    box-sizing: border-box;
+    outline: 0;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: var(--primary-color);
+    font-family: 'Open sans', sans-serif;
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+.container{
+    max-width: 640px;
+    margin: 8px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    
+    
+}
+form input, form label, form button{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+form input{
+    font-size: 24px;
+    height: 50px;
+    padding: 0 20px;
+}
+form button {
+    border: none;
+    background-color: var(--primary-color);
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    height: 50px;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+form button:hover{
+    background: var(--primary-color-darker);
+}
+.p-result{
+    border-radius: 10px;
+    background: rgb(109, 255, 182);
+    padding: 10px 20px;
+    font-weight: 700;
+}
+.Incorrect{
+    border-radius: 10px;
+    background: rgb(131, 5, 5);
+    padding: 10px 20px;
+    font-weight: 700;
+}
+p{
+    margin: 10px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 19px;
+    font-weight: 400;
+}
+.Info{
+    padding-right: 50%;
+}
+.Info1{
+    padding-left: 60%;
+    margin-top: -40%;
+}
